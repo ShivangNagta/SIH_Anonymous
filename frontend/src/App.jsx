@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import Example from './components/header'
+import Header from './components/header';
+import Sidebar from './components/sidebar';
 
 function App() {
-  
   return (
-    <>
-      <Example/>
-    </>
-  )
+    <div className="relative">
+      <Header />
+      <Sidebar />
+    </div>
+  );
 }
 
-export default App
+export default App;
